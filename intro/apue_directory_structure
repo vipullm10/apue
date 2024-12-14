@@ -1,0 +1,48 @@
+/Users/vipuldevnani/apue :
+	/Users/vipuldevnani/apue/next :
+	ls_command_testing
+	error_out
+	dir_print_out
+	ls.c
+	/Users/vipuldevnani/apue/test :
+		fcb.txt
+		/Users/vipuldevnani/apue/test/directory :
+			/Users/vipuldevnani/apue/test/directory/next :
+			/Users/vipuldevnani/apue/test/directory/next2 :
+		vipul.txt
+	fork.c
+	copied_file
+	apue_directory_structure
+	errorhandling.out
+	test.h
+	errorhandling.c
+	copy.c
+	apue.c
+	directory_file_priner.c
+	sample_text
+	a.out
+	sample_text_time_test
+	directory_file_priner_exe
+	fork_exe
+	ls_command
+	copy_exe
+	ls_command_test
+	copied_text
+	apue.h.gch
+	copy
+	test.c
+	/Users/vipuldevnani/apue/.vscode :
+		settings.json
+		launch.json
+		tasks.json
+	/Users/vipuldevnani/apue/ls.dSYM :
+		/Users/vipuldevnani/apue/ls.dSYM/Contents :
+			/Users/vipuldevnani/apue/ls.dSYM/Contents/Resources :
+				/Users/vipuldevnani/apue/ls.dSYM/Contents/Resources/Relocations :
+					/Users/vipuldevnani/apue/ls.dSYM/Contents/Resources/Relocations/aarch64 :
+						ls.yml
+				/Users/vipuldevnani/apue/ls.dSYM/Contents/Resources/DWARF :
+					ls
+			Info.plist
+	apue.h
+	ls_comm

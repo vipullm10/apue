@@ -1,0 +1,5 @@
+This is a text file in apue directory
+This file shall be read by providing the relative path of this file with respect to the apue directory
+Since our working directory is apue/file_io , this is not possible with use of open function
+Open function requires the path to be absolute , or relative to the present working directory
+To do this , we use the openat function and provide it with the file descriptor of apue directory and the relative path of the file
