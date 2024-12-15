@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
+#include <sys/stat.h>
 
 int main(int argc, char *argv[])
 {
@@ -29,10 +30,16 @@ int main(int argc, char *argv[])
     }
 #endif
 
-    if (rename(argv[1], argv[2]) < 0)
+    // if (rename(argv[1], argv[2]) < 0)
+    // {
+    //     perror("Error while rename");
+    //     exit(EXIT_FAILURE);
+    // }
+    struct stat statBuff;
+    stat(argv[2], &statBuff);
+    if (S_ISDIR(statBuff.st_mode))
     {
-        perror("Error while rename");
-        exit(EXIT_FAILURE);
+        printf("%s is a directory", argv[2]);
     }
     exit(EXIT_SUCCESS);
 }
